@@ -1,7 +1,7 @@
 NAME                                              READY   STATUS             RESTARTS   AGE
 api-access-decision-service-7f94bdbc4-tk4st       1/1     Running            0          30d
 d-api-gateway-6dbd97f767-wgkrz                    1/1     Running            0          30d
-d-auth-service-5f5f466864-bdskb                   0/1     Error              15          30d
+d-auth-service-5f5f466864-bdskb                   0/1     Error              15         30d
 d-data-export-service-56f6f7f5d8-s4d22            1/1     Running            0          30d
 d-fiscal-service-5c5fb97bb8-fgsx5                 1/1     Running            0          30d
 d-medods-api-57567d5fb6-gqpkd                     1/1     Running            0          30d
