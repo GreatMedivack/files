@@ -1,7 +1,7 @@
 NAME                                              READY   STATUS             RESTARTS   AGE
 api-access-decision-service-7f94bdbc4-tk4st       1/1     Running            0          30d
 d-api-gateway-6dbd97f767-wgkrz                    1/1     Running            0          30d
-d-auth-service-5f5f466864-bdskb                   0/1     Error              0          30d
+d-auth-service-5f5f466864-bdskb                   0/1     Error              15          30d
 d-data-export-service-56f6f7f5d8-s4d22            1/1     Running            0          30d
 d-fiscal-service-5c5fb97bb8-fgsx5                 1/1     Running            0          30d
 d-medods-api-57567d5fb6-gqpkd                     1/1     Running            0          30d
@@ -10,7 +10,7 @@ d-work-time-service-774c4655c8-vhhc7              1/1     Running            0  
 db-mongo-0                                        1/1     Running            0          30d
 db-postgres-0                                     1/1     Running            0          30d
 demodent-analysis-service-58878f5f87-tsd42        1/1     Running            0          10h
-demodent-api-gateway-677bf48f98-gmn2n             0/1     Error              0          10h
+demodent-api-gateway-677bf48f98-gmn2n             0/1     Error              9          10h
 demodent-auth-service-5757b775cc-vnspn            1/1     Running            0          10h
 demodent-client-widget-5484cb77cd-rsw9s           1/1     Running            0          10h
 demodent-data-export-service-547f956d94-h86jf     1/1     Running            0          10h
@@ -23,7 +23,7 @@ demodent-work-time-service-bf476cc5b-5mvkz        1/1     Running            0  
 demomed-analysis-service-6f955bff79-cqjv9         1/1     Running            0          10h
 demomed-api-gateway-fb8547bf8-pmgmk               1/1     Running            0          10h
 demomed-auth-service-5b7bfb74b7-fl4d2             1/1     Running            0          10h
-demomed-client-widget-6c58686f69-qvj9g            0/1     Error              0          10h
+demomed-client-widget-6c58686f69-qvj9g            0/1     Error              3          10h
 demomed-data-export-service-65988f5665-cgnhp      1/1     Running            0          10h
 demomed-fiscal-service-ddc5c858c-q2mdx            1/1     Running            0          10h
 demomed-init-job-vsgjv                            0/1     Completed          0          10h
@@ -55,7 +55,7 @@ m-work-time-service-5b6c5db699-59x6m              1/1     Running            0  
 pgbouncer-0-6c478b597-mrjfv                       1/1     Running            0          30d
 pgbouncer-1-5f49d47678-5sk6h                      1/1     Running            0          30d
 pgbouncer-2-6889f4996c-zftth                      1/1     Running            0          30d
-redis-0                                           0/1     Error            	 0          30d
+redis-0                                           0/1     Error            	 5          30d
 test38-api-gateway-7bb56c95b5-87m55               1/1     Running            0          30d
 test38-auth-service-594ffc4b8-5t72t               1/1     Running            0          30d
 test38-client-widget-7bdf4d48bf-c947l             1/1     Running            0          4d16h
@@ -71,8 +71,8 @@ test39-mdlp-service-5f9d66cb4-q4phq               1/1     Running            0  
 test39-medods-api-7787c8dd8b-qcr6t                1/1     Running            0          17d
 test39-medods-ru-6758549757-hdspt                 1/1     Running            0          5d16h
 test39-work-time-service-7ff8467f7b-z5mdv         1/1     Running            0          17d
-test40-analysis-service-7f645f5878-b7zjm          0/1     Error              0          7d20h
-test40-analytics-service-76fff857bb-svhsh         0/1     Error              0          17h
+test40-analysis-service-7f645f5878-b7zjm          0/1     Error              6          7d20h
+test40-analytics-service-76fff857bb-svhsh         0/1     Error              7          17h
 test40-api-gateway-6bc65b577f-kzpdh               1/1     Running            0          11d
 test40-auth-service-85d957c69c-x2hhf              1/1     Running            0          17d
 test40-client-widget-78899d9bbb-4zh9h             1/1     Running            0          4d16h
