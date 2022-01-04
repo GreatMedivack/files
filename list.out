@@ -10,7 +10,7 @@ d-work-time-service-774c4655c8-vhhc7              1/1     Running            0  
 db-mongo-0                                        1/1     Running            0          30d
 db-postgres-0                                     1/1     Running            0          30d
 demodent-analysis-service-58878f5f87-tsd42        1/1     Running            0          10h
-demodent-api-gateway-677bf48f98-gmn2n             0/1     Error              9          10h
+demodent-api-gateway-677bf48f98-gmn2n             0/1     Error              10          10h
 demodent-auth-service-5757b775cc-vnspn            1/1     Running            0          10h
 demodent-client-widget-5484cb77cd-rsw9s           1/1     Running            0          10h
 demodent-data-export-service-547f956d94-h86jf     1/1     Running            0          10h
